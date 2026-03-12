@@ -1,0 +1,20 @@
+fasta: "/home/s2451842/GTF/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
+gtf: "/home/s2451842/GTF/Homo_sapiens.GRCh38.112.gtf"
+
+index_prefix: "hisat2_index/Homo_sapiens.GRCh38_direct_index"
+
+samplesheet: "Samplesheet_HAoSMCs.csv"
+
+threads: 8
+
+adapters: "adapters/TruSeq3-PE.fa"
+
+trimdir: "trimmed_data"
+qc_dir: "qc_reports"
+align_dir: "HAoSMC_HISAT2_Trimmomatic_Output_Ensembl112"
+log_dir: "logs"
+multiqc_dir: "multiqc_reports"
+htseq_dir: "HTSeq_geneid_Results"
+
+hisat2_rna_strandness: "RF"
+htseq_stranded: "reverse"
